@@ -1,0 +1,18 @@
+{
+	"apple": {
+		"name": "김사과1",
+		"password": "1111"
+	},
+	"apple2": {
+		"name": "김사과2",
+		"password": "1111"
+	},
+	"apple3": {
+		"name": "김사과3",
+		"password": "1111"
+	},
+	"melon": {
+		"name": "박멜론",
+		"password": "9999"
+	}
+}

@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        title page
+    body
+        #header
+            h1 this
+            h2 is Apple
+        hr
+        #header2
+            h3 #{name}
+            h4= description
+        hr
+        .article
+            a(href="http://www.naver.com") Go to NAVER
+        hr
+        .for
+            - for(var i=0; i<10; i++){
+                p
+                    a(href="http://www.naver.com/#{i}") Go to NAVER #{i}
+            - }
